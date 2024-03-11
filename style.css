@@ -1,0 +1,88 @@
+@import url(css/global.css);
+
+header{
+    height: 160px;
+    padding: 20px 40px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.house-filter{
+    display: flex;
+    width: 430px;
+    height: 50px;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.house-filter button:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+}
+
+.house-filter:hover{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: 500ms;
+}
+
+.icon-search{
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.icon-search:hover{
+    background: #ad1649;
+    transition: 500ms;
+}
+
+.user-field{
+    display: flex;
+    justify-content: space-around;
+    width: 370px;
+    height: 50px;
+}
+
+.user-field button{
+    padding: 0 10px;
+    font-size: 1em;
+}
+
+.user-field .asc-config:hover{
+    background: var(--hover-color);
+    transition: 500ms;
+    border-radius: 50px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 50px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.user:hover{
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.user span{
+    padding: 5px;
+}
+
