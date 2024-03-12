@@ -4,34 +4,140 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/global.css">
     <title>Viva Casa</title>
   </head>
   <body>
       <header>
-        <div class="top-header">
-          <h1>Viva Casa</h1>
-          <span class="house-filter">
-            <button>Qualquer Lugar</button>
-            <button>Data Check-in</button>
-            <button>Data Check-out</button>
-            <button class="search">
-              <span class="material-symbols-outlined icon-search">search</span>
-            </button>
-          </span>
-          <nav class="user-field">
-            <button class="asc-config">Anuncie sua casa</button>
-            <button class="user">
-              <span class="material-symbols-outlined">menu</span>
-              <span class="material-symbols-outlined">account_circle</span>
-            </button>
-          </nav>
+        <div class="container">
+          <div class="top-header">
+            <a href="#">
+              <img class="logo" src="img/vivacasa-Logo.png" alt="Logo do Viva casa">
+            </a>
+            <span class="house-filter">
+              <button>Qualquer Lugar</button>
+              <button>Data Check-in</button>
+              <button>Data Check-out</button>
+              <button class="search">
+                <span class="material-symbols-outlined icon-search">search</span>
+              </button>
+            </span>
+            <nav class="user-field">
+              <button class="asc-config">Anuncie sua casa</button>
+              <button class="user">
+                <span class="material-symbols-outlined">menu</span>
+                <span class="material-symbols-outlined">account_circle</span>
+              </button>
+            </nav>
+          </div>
         </div>
-        <div>
-
+        <div class="separator"></div>
+        <div class="container-header-bottom">
+          <div class="container-filter">
+            <button class="scroll-button scroll-button-left" onclick="scrollCarousel(-300)">
+              <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">beach_access</span>
+                <span class="text-icon">Em frente à praia</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">fitness_center</span>
+                <span class="text-icon">Academia</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">outdoor_grill</span>
+                <span class="text-icon">Churrasqueira</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">wifi</span>
+                <span class="text-icon">Acesso ao Wifi</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">fitness_center</span>
+                <span class="text-icon">Academia</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">outdoor_grill</span>
+                <span class="text-icon">Churrasqueira</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">kitchen</span>
+                <span class="text-icon">Cozinha</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">air_purifier_gen</span>
+                <span class="text-icon">Ar-condicionado</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">tv_signin</span>
+                <span class="text-icon">Televisão</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">pool</span>
+                <span class="text-icon">Piscina</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">hot_tub</span>
+                <span class="text-icon">Jacuzzi</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">crib</span>
+                <span class="text-icon">Berço</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">king_bed</span>
+                <span class="text-icon">Cama king</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">ev_charger</span>
+                <span class="text-icon">Carregador de carro elétrico</span>
+              </button>
+            </div>
+            <div class="filter">
+              <button class="filter-button">
+                <span class="material-symbols-outlined icon">dishwasher</span>
+                <span class="text-icon">Máquina de lavar</span>
+              </button>
+            </div>
+            <button class="scroll-button scroll-button-right" onclick="scrollCarousel(300)">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+          </div>
+          <div class="filter-btn-container">
+            <button class="filter-btn"> 
+              <span class="material-symbols-outlined filter-icon">tune</span> 
+              <span>Filtros</span>
+            </button>
+          </div>
         </div>
       </header>
       <main>
@@ -41,4 +147,13 @@
 
       </footer>
   </body>
+  <script>
+    function scrollCarousel(amount) {
+      const containerFilter = document.querySelector('.container-filter');
+      containerFilter.scrollLeft += amount;
+
+      const scrollButtonLeft = document.querySelector('.scroll-button-left');
+      const scrollButtonRight = document.querySelector('.scroll-button-right');
+  }
+  </script>
 </html>
